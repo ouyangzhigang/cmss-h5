@@ -1,0 +1,39 @@
+@base-px: 16px;
+@blue: #50c5e2;
+@textColor: #666;
+@darkBlue: #498fe1;
+@red: #f00;
+@border: #f3f3f3;
+@panel: #d2d2d2;
+@orange: #f05a23;
+.px2rem(@property, @px-values, @base-px: 16px) {
+  @{property}: @px-values / @base-px * 1rem;
+}
+
+.header() {
+  .px2rem(height, 50px);
+  .px2rem(line-height, 50px);
+  background: #fff;
+  text-align: center;
+}
+
+.panel() {
+  border: 1px solid @panel;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.box-shadow() {
+  box-shadow: 1px 1px 1px rgba(147, 147, 147, 0.5);
+}
+
+.btn(@height, @width, @bgColor, @fontSize) {
+  height: @height;
+  width: @width;
+  background-color: @bgColor;
+  border-radius: 4px;
+  color: #fff;
+  font-size: @fontSize;
+  .box-shadow();
+}

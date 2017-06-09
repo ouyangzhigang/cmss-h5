@@ -1,0 +1,21 @@
+@base-px: 16px;
+.px2rem(@property,@px-values,@base-px:16px) {
+  @{property}: @px-values / @base-px * 1rem;
+}
+
+.header {
+  .px2rem(height, 50px);
+  .px2rem(line-height, 50px);
+  background: #fff;
+  text-align: center;
+}
+
+.panel {
+  border: 1px solid #d2d2d2;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.box-shadow {
+  box-shadow: 1px 1px 1px rgba(147, 147, 147, 0.5);
+}

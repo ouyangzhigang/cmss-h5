@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for test\utils\uiTestUtil.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">all files</a> / <a href="index.html">test/utils/</a> uiTestUtil.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">51.16% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>22/43</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">23.08% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>6/26</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">55% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>22/40</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import Vue from 'vue';
+import _ from 'underscore';
+let id = 0;
+/** 创建一个body下的div来挂载单文件组件 */
+const createElm = function() {
+  const elm = document.createElement('div');
+  elm.id = 'app' + ++id;
+  document.body.appendChild(elm);
+  return elm;
+}
+&nbsp;
+/**
+*销毁vm
+*/
+let destroyVM = (vm) =&gt; {
+  <span class="missing-if-branch" title="if path not taken" >I</span>if(!vm) <span class="cstat-no" title="statement not covered" >return;</span>
+  let elm = vm.$el;
+  <span class="missing-if-branch" title="if path not taken" >I</span>if(!elm) <span class="cstat-no" title="statement not covered" >return;</span>
+  let parentNode = elm.parentNode;
+  <span class="missing-if-branch" title="if path not taken" >I</span>if(!parentNode) <span class="cstat-no" title="statement not covered" >return;</span>
+  parentNode.removeChild(elm);
+};
+&nbsp;
+/**
+* 创建一个Vue实例对象
+* Compnent - 组件配置，可直接传template
+* mounted - 是否添加到DOM上
+*/
+let createVM = (component, props, plugins = [], mounted = false) =&gt; <span class="fstat-no" title="function not covered" >{</span>
+<span class="cstat-no" title="statement not covered" >  if(_.isBoolean(plugins)) {</span>
+<span class="cstat-no" title="statement not covered" >    mounted = plugins;</span>
+<span class="cstat-no" title="statement not covered" >    plugins = [];</span>
+  }
+<span class="cstat-no" title="statement not covered" >  plugins.forEach((plugin) =&gt; <span class="fstat-no" title="function not covered" >{</span></span>
+<span class="cstat-no" title="statement not covered" >    Vue.use(plugin);</span>
+  });
+  const elm = <span class="cstat-no" title="statement not covered" >createElm();</span>
+<span class="cstat-no" title="statement not covered" >  if(_.isString(component)) {</span>
+<span class="cstat-no" title="statement not covered" >    compnent = { template: component }</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return new Vue(component).$mount(mounted === false ? null : elm);</span>
+}
+&nbsp;
+let createComponent = (component, props = {}, mounted = false) =&gt; {
+  <span class="missing-if-branch" title="else path not taken" >E</span>if(_.isBoolean(props)) {
+    mounted = props;
+    props = {};
+  }
+  const elm = createElm();
+  const Ctor = Vue.extend(component);
+  return new Ctor({propsData: props}).$mount(mounted === false ? <span class="branch-0 cbranch-no" title="branch not covered" >null </span>: elm);
+};
+&nbsp;
+/**
+* 事件触发：mouseenter, mouseleave, mouseover, keyup, change, click ...
+*/
+&nbsp;
+let triggerEvent = (elm, eventName, ...options) =&gt; <span class="fstat-no" title="function not covered" >{</span>
+  let eventType;
+<span class="cstat-no" title="statement not covered" >  if(/^mouse|click/.test(eventName)) {</span>
+<span class="cstat-no" title="statement not covered" >    eventType = 'MouseEvents'</span>
+  } else <span class="cstat-no" title="statement not covered" >if(/^key/.test(eventName)) {</span>
+<span class="cstat-no" title="statement not covered" >    eventType = 'KeyBoardEvent'</span>
+  } else {
+<span class="cstat-no" title="statement not covered" >    eventType = 'HTMLEvents'</span>
+  }
+&nbsp;
+  const event = <span class="cstat-no" title="statement not covered" >document.createEvent(eventType);</span>
+<span class="cstat-no" title="statement not covered" >  event.initEvent(eventName, ...options);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  elm.dispatchEvent</span>
+    ? elm.dispatchEvent(event)
+    : elm.fireEvent('on' + eventName, event);
+<span class="cstat-no" title="statement not covered" >  return elm;</span>
+}
+export {destroyVM, createVM, createComponent, triggerEvent};</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Thu Mar 30 2017 14:44:35 GMT+0800 (中国标准时间)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

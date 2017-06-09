@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/icore_cmss/!svn/ver/121/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components
+END
+pa-field.vue
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/icore_cmss/!svn/ver/120/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-field.vue
+END
+pa-form.vue
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/icore_cmss/!svn/ver/93/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-form.vue
+END
+pa-search.vue
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/icore_cmss/!svn/ver/93/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-search.vue
+END
+index.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/icore_cmss/!svn/ver/121/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/index.js
+END
+pa-searchHistory.vue
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/icore_cmss/!svn/ver/104/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-searchHistory.vue
+END
+pa-whole-list.vue
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/icore_cmss/!svn/ver/98/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-whole-list.vue
+END
+pa-page.vue
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/icore_cmss/!svn/ver/120/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-page.vue
+END
+pa-picker.vue
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/icore_cmss/!svn/ver/93/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-picker.vue
+END
+pa-cell.vue
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/icore_cmss/!svn/ver/93/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-cell.vue
+END
+pa-dialog.vue
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/icore_cmss/!svn/ver/120/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-dialog.vue
+END
+pa-panel.vue
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/icore_cmss/!svn/ver/111/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-panel.vue
+END
+pa-site-picker.vue
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/icore_cmss/!svn/ver/93/branches/ICORE-CMSS1.0.4/H5/vuejs/src/common/components/pa-site-picker.vue
+END

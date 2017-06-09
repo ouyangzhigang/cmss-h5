@@ -1,0 +1,23 @@
+{
+  "0": {
+    "minDuration": "-Infinity",
+    "maxDuration": "Infinity"
+  },
+  "1": {
+    "minDuration": 0,
+    "maxDuration": 90
+  },
+  "2": {
+    "minDuration": 91,
+    "maxDuration": 180
+  },
+  "3": {
+    "minDuration": 181,
+    "maxDuration": 270
+
+  },
+  "4": {
+    "minDuration": 271,
+    "maxDuration": "Infinity"
+  }
+}

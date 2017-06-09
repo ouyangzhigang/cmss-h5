@@ -1,0 +1,37 @@
+export default [
+  {
+    'label': '医疗',
+    'options': [
+      {
+        'text': '门诊',
+        'value': '1',
+        'active': false
+      },
+      {
+        'text': '住院',
+        'value': '2',
+        'active': false
+      }
+    ]
+  },
+  {
+    'label': '其他',
+    'options': [
+      {
+        'text': '航班延误',
+        'value': '3',
+        'active': false
+      },
+      {
+        'text': '行李延误',
+        'value': '4',
+        'active': false
+      },
+      {
+        'text': '其他',
+        'value': '5',
+        'active': false
+      }
+    ]
+  }
+];

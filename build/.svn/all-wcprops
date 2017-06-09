@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/icore_cmss/!svn/ver/120/branches/ICORE-CMSS1.0.4/H5/vuejs/build
+END
+vue-loader.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/icore_cmss/!svn/ver/93/branches/ICORE-CMSS1.0.4/H5/vuejs/build/vue-loader.conf.js
+END
+webpack.base.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/icore_cmss/!svn/ver/117/branches/ICORE-CMSS1.0.4/H5/vuejs/build/webpack.base.conf.js
+END
+dev-client.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/icore_cmss/!svn/ver/93/branches/ICORE-CMSS1.0.4/H5/vuejs/build/dev-client.js
+END
+webpack.dev.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/icore_cmss/!svn/ver/117/branches/ICORE-CMSS1.0.4/H5/vuejs/build/webpack.dev.conf.js
+END
+webpack.test.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/icore_cmss/!svn/ver/93/branches/ICORE-CMSS1.0.4/H5/vuejs/build/webpack.test.conf.js
+END
+build.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/icore_cmss/!svn/ver/117/branches/ICORE-CMSS1.0.4/H5/vuejs/build/build.js
+END
+utils.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/icore_cmss/!svn/ver/117/branches/ICORE-CMSS1.0.4/H5/vuejs/build/utils.js
+END
+dev-server.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/icore_cmss/!svn/ver/93/branches/ICORE-CMSS1.0.4/H5/vuejs/build/dev-server.js
+END
+check-versions.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/icore_cmss/!svn/ver/93/branches/ICORE-CMSS1.0.4/H5/vuejs/build/check-versions.js
+END
+test-server.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/icore_cmss/!svn/ver/117/branches/ICORE-CMSS1.0.4/H5/vuejs/build/test-server.js
+END
+webpack.prod.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/icore_cmss/!svn/ver/120/branches/ICORE-CMSS1.0.4/H5/vuejs/build/webpack.prod.conf.js
+END

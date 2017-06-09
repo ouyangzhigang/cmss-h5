@@ -1,0 +1,39 @@
+[
+  {
+    "bankCode": "102",
+    "bankName": "中国工商银行"
+  }, {
+    "bankCode": "103",
+    "bankName": "中国农业银行"
+  }, {
+    "bankCode": "104",
+    "bankName": "中国银行"
+  }, {
+    "bankCode": "105",
+    "bankName": "建设银行"
+  }, {
+    "bankCode": "301",
+    "bankName": "交通银行"
+  }, {
+    "bankCode": "302",
+    "bankName": "中信银行"
+  }, {
+    "bankCode": "303",
+    "bankName": "光大银行"
+  }, {
+    "bankCode": "305",
+    "bankName": "民生银行"
+  }, {
+    "bankCode": "307",
+    "bankName": "平安银行"
+  }, {
+    "bankCode": "308",
+    "bankName": "招商银行"
+  }, {
+    "bankCode": "A01",
+    "bankName": "上海银行"
+  }, {
+    "bankCode": "A02",
+    "bankName": "北京银行"
+  }
+]

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/icore_cmss/!svn/ver/119/branches/ICORE-CMSS1.0.4/H5/vuejs/src/threeInsu/store
+END
+index.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/icore_cmss/!svn/ver/103/branches/ICORE-CMSS1.0.4/H5/vuejs/src/threeInsu/store/index.js
+END
+api.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/icore_cmss/!svn/ver/119/branches/ICORE-CMSS1.0.4/H5/vuejs/src/threeInsu/store/api.js
+END
+actions.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/icore_cmss/!svn/ver/119/branches/ICORE-CMSS1.0.4/H5/vuejs/src/threeInsu/store/actions.js
+END
+state.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/icore_cmss/!svn/ver/119/branches/ICORE-CMSS1.0.4/H5/vuejs/src/threeInsu/store/state.js
+END
+mutations.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/icore_cmss/!svn/ver/119/branches/ICORE-CMSS1.0.4/H5/vuejs/src/threeInsu/store/mutations.js
+END
